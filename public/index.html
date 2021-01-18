@@ -1,0 +1,46 @@
+<!-- =============================================================================
+ index.html
+ project: Stickers and Notes
+ author: Zifan Yang
+ date created: 2020-10-11
+ last modified: 2021-01-15
+============================================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Stickers and Links</title>
+        <meta charset=utf-8>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="lib/jquery-ui-1.12.1/jquery-ui.css">
+        <script src = "lib/jquery-3.5.1.js"></script>
+        <script src = "lib/jquery-ui-1.12.1/jquery-ui.js"></script>
+        <script src = "scripts/javascript.js"></script>
+    </head>
+
+    <body style="background-image: url('img/bg.jpg');">
+        <div id = "stickers-panel">
+            <div id = "newNote" class = "stickers note-color-yellow">
+                <textarea id="new-note-input" class = "note-input" name="note-input" placeholder="New note"></textarea>
+                <div class = "color-buttons-div">
+                    <button id = "new-note-color-yellow-btn" class = "color-buttons note-color-yellow apply-shadow color-buttons-selected"></button>
+                    <button id = "new-note-color-green-btn" class = "color-buttons note-color-green apply-shadow"></button>
+                    <button id = "new-note-color-blue-btn" class = "color-buttons note-color-blue apply-shadow"></button>
+                    <button id = "new-note-color-red-btn" class = "color-buttons note-color-red apply-shadow"></button>
+                    <button id = "new-note-color-purple-btn" class = "color-buttons note-color-purple apply-shadow"></button>
+                </div>
+                <button id = "add-note-btn" class = "note-color-green apply-shadow">+</button>
+            </div>
+        </div>
+
+        <div id = "links-panel">
+            <div id = "add-form">
+                <div id = "input-holder">
+                    <input type="text" id="new-link-input" class="link-input" name="link-input" placeholder="New link">
+                </div>
+                <div id = "add-link-btn-holder">
+                    <button id = "add-link-btn">+</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

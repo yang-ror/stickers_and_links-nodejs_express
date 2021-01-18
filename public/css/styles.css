@@ -1,0 +1,287 @@
+body{
+    display: flex;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#stickers-panel{
+    flex-grow: 1;
+    min-width: 500px;
+    height: 100px;
+}
+
+#links-panel{
+    float:left;
+    width: 400px;
+    min-width: 400px;
+}
+
+.stickers{
+    margin: 10px;
+    display: inline-block;
+    vertical-align:top;
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgb(105, 105, 105);
+    position: relative;
+}
+
+.note-btn-holder{
+    /* display:none; */
+    position: absolute;
+    top:220px;
+    left: 208px;
+}
+
+.note-btns{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.note-btns:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.edit-note-btns{
+    background-color: rgb(158, 212, 212);
+}
+
+.save-note-btns{
+    background-color: rgb(158, 212, 212);
+}
+
+.cancel-note-btns{
+    background-color: rgb(255, 141, 141);
+}
+
+.delete-note-btns{
+    background-color: rgb(255, 141, 141);
+}
+
+.note-btns:focus{
+    outline: none;
+}
+
+.note-color-yellow{
+    background-color: rgb(255, 255, 169);
+}
+
+.note-color-green{
+    background-color: rgb(189, 255, 169);
+}
+
+.note-color-blue{
+    background-color: rgb(139, 216, 252);
+}
+
+.note-color-red{
+    background-color: rgb(255, 197, 197);
+}
+
+.note-color-purple{
+    background-color: rgb(249, 203, 255);
+}
+
+.note-input{
+    padding: 10px;
+    resize: none;
+    border: none;
+    background: transparent;
+    width: 283px;
+    height: 190px;
+    font-size: 1.2em;
+}
+
+.note-input:focus {
+    outline: 0;
+}
+
+.color-buttons-div{
+    position: absolute;
+    top:223px;
+    left: 20px;
+}
+
+.color-buttons{
+    border: none;
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.color-buttons:focus {
+    outline: 0;
+}
+
+/* .color-buttons-selected{
+
+} */
+
+.apply-shadow{
+    box-shadow: 0px 2px 3px rgb(105, 105, 105);
+}
+
+#add-note-btn{
+    position: absolute;
+    top:220px;
+    left: 235px;
+    border: none;
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    font-size: 2em;
+    color: gray;
+}
+
+#add-note-btn:hover {
+    background-color: white;
+}
+
+#add-note-btn:focus {
+    outline: 0;
+}
+
+.note-content-div{
+    padding: 10px;
+    width: 300px;
+    height: 240px;
+}
+
+.note-content{
+    width: 280px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+#add-form{
+    display: flex;
+    margin-top: 10px;
+    width: 390px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 4px rgb(105, 105, 105);
+}
+
+#input-holder{
+    flex-grow: 1;
+    background-color: rgb(191, 255, 161);
+    width: 200px;
+    height: 100%;
+    border-radius: 25px 0px 0px 25px;
+}
+
+#add-link-btn-holder{
+    background-color: rgb(47, 172, 255);
+    float:left;
+    width: 60px;
+    height: 100%;
+    border-radius: 0px 25px 25px 0px;
+    cursor: pointer;
+}
+
+#add-link-btn-holder:hover{
+    background-color: white;
+}
+
+.link-input{
+    font-size: 18px;
+    background-color: transparent;
+    margin-top: 13px;
+    margin-left: 15px;
+    width: 300px;
+    border: none;
+}
+
+.link-input:focus{
+    outline: 0;
+}
+
+#add-link-btn{
+    font-size: 2.5em;
+    color: rgb(116, 116, 116);
+    background-color: transparent;
+    border: none;
+    margin-top: 3px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+#add-link-btn:focus {
+    outline: 0;
+}
+
+.links{
+    width: 390px;
+    height: 50px;
+    background-color: rgb(255, 255, 169);
+    margin-top: 10px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 4px rgb(105, 105, 105);
+    position: relative;
+}
+
+.link-content-div{
+    font-size: 1.2em;
+    height: 25px;
+    padding-top: 13px;
+    padding-left: 16px;
+    max-width: 313px;
+    overflow: hidden;
+}
+
+.link-btn-holder{
+    position: absolute;
+    top:0px;
+    left: 330px;
+    height: 50px;
+    border-radius: 0px 25px 25px 0px;
+    width: 60px;
+}
+
+.sub-link-btns-holder{
+    height: 25px;
+    cursor: pointer;
+}
+
+.upper-link-btns-holder{
+    background-color: rgb(158, 212, 212);
+    border-radius: 0px 25px 0px 0px;
+}
+
+.upper-link-btns-holder:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.lower-link-btns-holder{
+    background-color: rgb(255, 141, 141);
+    border-radius: 0px 0px 25px 0px;
+}
+
+.lower-link-btns-holder:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.link-btns{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+
+.link-btns:focus{
+    outline: none;
+}
+
+.invisible-stickers{
+    display: inline-block;
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+}
