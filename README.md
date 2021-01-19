@@ -24,4 +24,4 @@ This project is developed for my mom. Instead of writing a note or URL on a stic
 
 ### Things to know:
  - to run the project, simply run npm start
- 
+ - the port has been set on 80
