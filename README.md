@@ -19,7 +19,7 @@ This project is developed for my mom. Instead of writing a note or URL on a stic
 
 ***Live demo:***
 
-***Dockerhub:***[https://hub.docker.com/repository/docker/yangror/stickers_and_links](https://hub.docker.com/repository/docker/yangror/stickers_and_links)
+***Dockerhub:*** [https://hub.docker.com/repository/docker/yangror/stickers_and_links](https://hub.docker.com/repository/docker/yangror/stickers_and_links)
 
 
 ### Things to know:
