@@ -17,7 +17,7 @@ This project is developed for my mom. Instead of writing a note or URL on a stic
  - JQuery \ JQuery UI
 
 
-***Live demo:***
+***Live demo:*** [http://ec2-3-129-148-1.us-east-2.compute.amazonaws.com:3800](http://ec2-3-129-148-1.us-east-2.compute.amazonaws.com:3800)
 
 ***Dockerhub:*** [https://hub.docker.com/repository/docker/yangror/stickers_and_links](https://hub.docker.com/repository/docker/yangror/stickers_and_links)
 
