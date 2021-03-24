@@ -143,6 +143,7 @@ function playNewNoteAnimation(){
 function newLink(url){
     var data = {};
     data.url = url;
+
     $.ajax({
         type: "POST",
         url: "./newLink",
@@ -171,7 +172,7 @@ function playNewLinkAnimation(){
 function loadNotes(){
     $.ajax({
         dataType: 'json',
-        url: 'json/notes.json',
+        url: './notes',
         error: function (e){
             alert("An error occurred while load json");
             console.log("json reading Failed: ", e);
@@ -201,7 +202,7 @@ function loadNotes(){
 function loadLinks(){
     $.ajax({
         dataType: 'json',
-        url: 'json/links.json',
+        url: './links',
         error: function (e){
             alert("An error occurred while load json");
             console.log("json reading Failed: ", e);
@@ -552,6 +553,7 @@ function cancelEditLink(id){
 function deleteLink(id){
     var data = {};
     data.id = id;
+
     $.ajax({
         type: "POST",
         url: "./deleteLink",
